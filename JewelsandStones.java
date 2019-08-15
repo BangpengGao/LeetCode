@@ -7,8 +7,6 @@ package com.leetcode;
  * @ Date 2019/8/5
  */
 
-import com.sun.xml.internal.fastinfoset.util.CharArray;
-
 import java.util.HashMap;
 import java.util.Map;
 
