@@ -9,7 +9,7 @@ package com.leetcode;
 
 public class SortArrayByParity {
     /**
-     * 905. Sort Array By Parity
+     * 905. SortAlgorithm Array By Parity
      * Easy
      *
      * Given an array A of non-negative integers, return an array consisting of all the even elements of A, followed by all the odd elements of A.
