@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.bigbang.old;
 /*
  * @ Description
  * @ Author Bangpeng Gao
@@ -8,7 +8,6 @@ package com.leetcode;
  */
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 

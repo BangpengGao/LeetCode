@@ -1,4 +1,4 @@
-package com.leetcode.learn;
+package com.bigbang.old.learn;
 /*
  * @ Created with IntelliJ IDEA
  * @ Author Bangpeng Gao

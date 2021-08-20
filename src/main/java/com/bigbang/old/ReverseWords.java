@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.bigbang.old;
 /*
  * @ Description
  * @ Author Bangpeng Gao
@@ -6,8 +6,6 @@ package com.leetcode;
  * @ Since 1.0.0
  * @ Date 2019/7/29
  */
-
-import java.util.Arrays;
 
 public class ReverseWords {
     /**

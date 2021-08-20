@@ -1,4 +1,4 @@
-package com.leetcode;
+package com.bigbang.old;
 /*
  * @ Description
  * @ Author Bangpeng Gao
@@ -7,8 +7,6 @@ package com.leetcode;
  * @ Date 2019/9/4
  */
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 

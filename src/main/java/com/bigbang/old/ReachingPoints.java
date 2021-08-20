@@ -1,4 +1,5 @@
-package com.leetcode;
+package com.bigbang.old;
+
 /*
  * @ Description
  * @ Author Bangpeng Gao

@@ -1,3 +1,5 @@
+package com.bigbang.old;
+
 /*
 Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
 
@@ -11,7 +13,7 @@ Example 2:
 Input: "cbbd"
 Output: "bb"
 */
-public class Solution{
+public class LongestPalindromicSubstring{
     private int lo, maxLen;
     public String longestPalindrome(String s){
         int len=s.length();
