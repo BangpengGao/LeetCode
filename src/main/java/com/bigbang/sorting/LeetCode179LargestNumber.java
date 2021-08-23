@@ -1,5 +1,7 @@
 package com.bigbang.sorting;
 
+import java.util.Arrays;
+
 /*
  * @ Created with IntelliJ IDEA
  * @ Author Bang Peng
@@ -44,6 +46,25 @@ public class LeetCode179LargestNumber {
      * @return
      */
     public static String largestNumber(int[] nums) {
-        return null;
+        //Runtime: 4 ms, faster than 98.26% of Java online submissions for Largest Number.
+        //Memory Usage: 38.3 MB, less than 76.37% of Java online submissions for Largest Number.
+
+        if (nums == null || nums.length < 1) return "";
+        String[] stringList = new String[nums.length];
+        for (int i = 0; i < nums.length; i++)
+            stringList[i] = String.valueOf(nums[i]);
+
+        Arrays.sort(stringList, (s1, s2) -> (s2 + s1).compareTo(s1 + s2));
+
+        if (stringList[0].equals("0")) return "0";
+        StringBuilder solution = new StringBuilder();
+        for (String s : stringList)
+            solution.append(s);
+        return solution.toString();
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {10,2};
+        System.out.println(largestNumber(nums));
     }
 }
