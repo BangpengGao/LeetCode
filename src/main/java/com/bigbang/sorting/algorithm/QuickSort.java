@@ -8,7 +8,7 @@ package com.bigbang.sorting.algorithm;
  * @ Date 2021/8/20
  * @ Time 15:42
  */
-public class QuickSort {
+public class QuickSort extends Sort {
     /**
      * 快排
      *
@@ -17,7 +17,7 @@ public class QuickSort {
      * @param high
      * @param <T>
      */
-    public static <T> void quickSort(T[] arr, int low, int high) {
+    public <T> void sort(T[] arr, int low, int high) {
         T pivot = null, temp = null;
         int pos, i;
         if (low < high) {
@@ -35,20 +35,8 @@ public class QuickSort {
             arr[low] = arr[pos];
             arr[pos] = temp;
 
-            quickSort(arr, low, pos - 1);
-            quickSort(arr, pos + 1, high);
+            sort(arr, low, pos - 1);
+            sort(arr, pos + 1, high);
         }
-    }
-
-    /**
-     * 该比较方法，自写
-     *
-     * @param T1
-     * @param T2
-     * @param <T>
-     * @return
-     */
-    static <T> boolean compare(T T1, T T2) {
-        return T1.equals(T2);
     }
 }
