@@ -18,6 +18,6 @@ public class BasicSort extends Sort {
      */
     @Override
     public <T> void sort(T[] arr) {
-        
+
     }
 }
