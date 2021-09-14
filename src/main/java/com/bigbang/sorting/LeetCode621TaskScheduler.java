@@ -84,8 +84,8 @@ public class LeetCode621TaskScheduler {
     }
 
     public static void main(String[] args) {
-//        char[] chars = {'A', 'A', 'A', 'B', 'B', 'B'};
-//        System.out.println(leastInterval(chars, 0));
+        char[] chars = {'A', 'A', 'A', 'B', 'B', 'B'};
+        System.out.println(leastInterval(chars, 0));
 
         char[] chars1 = {'A', 'A', 'A', 'A', 'A', 'A', 'B', 'C', 'D', 'E', 'F', 'G'};
         System.out.println(leastInterval(chars1, 2));
