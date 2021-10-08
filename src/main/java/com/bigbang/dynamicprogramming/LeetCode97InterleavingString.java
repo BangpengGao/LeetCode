@@ -45,6 +45,9 @@ public class LeetCode97InterleavingString {
      * @return
      */
     public static boolean isInterleave(String s1, String s2, String s3) {
+        // dp
+        // Runtime: 4 ms, faster than 63.10% of Java online submissions for Interleaving String.
+        // Memory Usage: 37.4 MB, less than 73.92% of Java online submissions for Interleaving String.
         if (s3.length() != s1.length() + s2.length()) {
             return false;
         }
