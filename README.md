@@ -6,6 +6,7 @@
 
 ```
 Sorting
+Dynamic Programming
 Array
 String
 Hash Table
